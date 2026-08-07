@@ -1323,3 +1323,13 @@ body{
     transform:translateY(0);
 
 }
+/* Desktop only blur effect */
+@media (min-width: 769px){
+
+    .navbar{
+
+        backdrop-filter: blur(12px);
+
+    }
+
+}
