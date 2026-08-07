@@ -1333,3 +1333,47 @@ body{
     }
 
 }
+.footer-socials{
+
+    margin-top:18px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:28px;
+
+}
+
+.footer-socials a{
+
+    color:#94a3b8;
+
+    font-size:28px;
+
+    transition:all .3s ease;
+
+}
+
+.footer-socials a:hover{
+
+    color:#38bdf8;
+
+    transform:translateY(-5px) scale(1.15);
+
+}
+.contact-item i{
+
+    color:#38bdf8;
+
+    font-size:22px;
+
+    margin-right:10px;
+
+    width:24px;
+
+    text-align:center;
+
+}
