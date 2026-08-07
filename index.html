@@ -383,32 +383,40 @@
 
 
         </div>
+<form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
 
-        <form class="contact-form">
+    <input
+        type="hidden"
+        name="access_key"
+        value="473320b6-0f79-4aef-a9f6-f1531b32148d"
+    >
 
-            <input
-                type="text"
-                placeholder="Your Name"
-                required
-            >
+    <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+    >
 
-            <input
-                type="email"
-                placeholder="Your Email"
-                required
-            >
+    <input
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required
+    >
 
-            <textarea
-                rows="6"
-                placeholder="Your Message"
-                required
-            ></textarea>
+    <textarea
+        name="message"
+        rows="6"
+        placeholder="Your Message"
+        required
+    ></textarea>
 
-            <button type="submit" class="btn">
-                Send Message
-            </button>
+    <button type="submit" class="btn">
+        Send Message
+    </button>
 
-        </form>
+</form>
 
     </div>
 
