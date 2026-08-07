@@ -64,6 +64,8 @@ typeEffect();
 // =========================
 
 const navLinks = document.querySelectorAll(".nav-links a");
+const sections = document.querySelectorAll("section");
+const navItems = document.querySelectorAll(".nav-links a");
 
 window.addEventListener("scroll", () => {
 
@@ -149,8 +151,7 @@ navItems.forEach(item => {
     });
 
 });
-const sections = document.querySelectorAll("section");
-const navItems = document.querySelectorAll(".nav-links a");
+
 
 window.addEventListener("scroll", () => {
 
